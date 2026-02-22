@@ -1523,6 +1523,15 @@ msgctxt "DockUploadSpeedSetting|"
 msgid "Show total upload speed in the Dock icon"
 msgstr "Показване на общата скорост на качване в иконата в дока"
 
+#, qt-format
+msgctxt "DonateBannerStrip|"
+msgid "Thank you for using %1!"
+msgstr ""
+
+msgctxt "DonateBannerStrip|"
+msgid "You help us grow and progress"
+msgstr ""
+
 msgctxt "DownloadExpiredDialog|"
 msgid "Download Failure"
 msgstr "Неуспешно изтегляне"
@@ -3564,6 +3573,11 @@ msgctxt "Mp4ConverterPage|"
 msgid "The path contains invalid characters"
 msgstr "Пътя съдържа недопустими символи"
 
+#, fuzzy
+msgctxt "MySearchField|"
+msgid "Search"
+msgstr "Търсене"
+
 msgctxt "NativeMenuBar|"
 msgid "Check for Updates..."
 msgstr "Проверка за обновления..."
@@ -3878,11 +3892,11 @@ msgstr "Актуализиране на инсталираните добавк�
 
 msgctxt "PluginsPage|"
 msgid "Developer options"
-msgstr ""
+msgstr "Опции за разработчици"
 
 msgctxt "PluginsPage|"
 msgid "Allow unsigned add-ons to access external directories"
-msgstr ""
+msgstr "Разрешаване на достъп на неподписани добавки до външни директории"
 
 #, fuzzy
 msgctxt "PluginsPage|"
@@ -3891,7 +3905,7 @@ msgstr "Изисква се рестартиране"
 
 msgctxt "PluginsPage|"
 msgid "Hide developer options"
-msgstr ""
+msgstr "Скриване на опциите за разработчици"
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
@@ -4822,7 +4836,7 @@ msgstr "Позволява да се изпълни произволен код.
 
 msgctxt "QObject|"
 msgid "Launch Deno (JavaScript runtime)"
-msgstr ""
+msgstr "Стартиране на Deno (JavaScript runtime)"
 
 msgctxt "QObject|"
 msgid "Installing..."
@@ -5138,10 +5152,6 @@ msgstr "Сб"
 msgctxt "SchedulerTools|"
 msgid "Set days of the week to enable Scheduler"
 msgstr "Задаване на дни от седмицата за включване на графика"
-
-msgctxt "SearchField|"
-msgid "Search"
-msgstr "Търсене"
 
 msgctxt "SearchToolbar|"
 msgid "Search"
@@ -5723,6 +5733,10 @@ msgstr "Дисково пространство: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Размер: %1"
+
+msgctxt "UiCoreBase|"
+msgid "Support the project"
+msgstr ""
 
 msgctxt "UiCoreBase|"
 msgid "High"
