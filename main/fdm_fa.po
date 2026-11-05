@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "نشان دادن دانلود و آپلود فعال با استفاده از نماد در نوار وظیفه"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "نمایش برچسب‌های داخلی:"
@@ -1055,12 +1060,32 @@ msgid "Add download"
 msgstr "افزودن دانلود"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "گزارش مشکل"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "انصراف"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1073,6 +1098,10 @@ msgstr "تأیید"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "دانلود"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1144,6 +1173,10 @@ msgstr "نام فایل دارای کاراکترهای غیر معتبر است
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "انصراف"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1590,6 +1623,10 @@ msgstr "نادیده‌گرفتن همه"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "لغو"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2268,6 +2305,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "تأیید"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "باتری ضعیف"
@@ -2650,6 +2696,10 @@ msgid "Name"
 msgstr "نام"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "حجم"
 
@@ -2685,6 +2735,10 @@ msgstr "تمام شده‌است"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "نام"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4031,17 +4085,25 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "افزونه نصب شده ای وجود ندارد."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "نصب افزونه از فایل"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "اطلاعات بیشتر در مورد افزونه‌های %1"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4059,6 +4121,10 @@ msgstr "فایل‌های افزونه‌های %1"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "نصب افزونه ناموفق بود"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4080,22 +4146,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "آیا مایل به ادامه نصب هستید؟"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "اجزای مورد نیاز زیر از دست رفته‌اند:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 مورد نیاز است."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "آیا مایلید آنها را نصب کنید؟"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "آیا مایل به نصب آن هستید؟"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4104,6 +4162,10 @@ msgstr "هیچ به‌روزرسانی یافت نشد"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "ناموفق در بروزرسانی افزونه"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4129,25 +4191,12 @@ msgstr "آیا مایل به ادامه نصب هستید؟"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"نسخه جدید افزونه %1 نیازمند اجزای اضافی است:\n"
-" %2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "نسخه جدید افزونه %1 نیازمند %2 است."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "آیا مایل به نصب آنها هستید؟"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "آیا مایل به نصب آن هستید؟"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4164,11 +4213,6 @@ msgstr "حذف"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "در حال بروزرسانی..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "نسخه: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4220,6 +4264,10 @@ msgstr "انصراف"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "نامشخص"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4303,6 +4351,11 @@ msgstr "خروج"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "نمایش پنجره اصلی"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "افزودن دانلود"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4928,6 +4981,10 @@ msgstr "حالت حلزونی"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "دانلودهای یوتیوب در دسترس نیستند"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5737,6 +5794,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "فعال‌سازی دانلودهای اضافی را برای بهینه‌سازی سرعت"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "۵ دقیقه"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "تنظیمات محدودیت ترافیک نامعتبر"
 
@@ -5942,6 +6033,10 @@ msgstr "فضای دیسک: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "حجم: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

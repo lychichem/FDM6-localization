@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Hide the Dock icon"
 msgstr "Dokkoló ikon elrejtése"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Beépített címkék megjelenítése"
@@ -1066,12 +1071,32 @@ msgid "Add download"
 msgstr "Letöltés hozzáadása"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Probléma jelentése"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Mégse"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1084,6 +1109,10 @@ msgstr "Rendben"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Letöltés"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1155,6 +1184,10 @@ msgstr "A fájlnév érvénytelen karaktereket tartalmaz"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Mégse"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1602,6 +1635,10 @@ msgstr "Összes kihagyása"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Megszakítás"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2284,6 +2321,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "Rendben"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Alacsony töltöttségű akkumulátor"
@@ -2666,6 +2712,10 @@ msgid "Name"
 msgstr "Név"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Méret"
 
@@ -2701,6 +2751,10 @@ msgstr "Befejezve"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Név"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4059,17 +4113,25 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Nincsenek telepített kiegészítők."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Kiegészítő telepítése fájlból"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "További információk a(z) %1 kiegészítőkről"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4087,6 +4149,10 @@ msgstr "%1 kiegészítő fájl"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Nem sikerült telepíteni a kiegészítőt"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4108,22 +4174,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Szeretnéd folytatni a telepítést?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "A következő szükséges összetevők hiányoznak:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 szükséges."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Szeretnéd telepíteni őket?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Szeretnéd telepíteni?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4132,6 +4190,10 @@ msgstr "Nem található frissítés"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Nem sikerült frissíteni a kiegészítőt"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4157,25 +4219,12 @@ msgstr "Szeretnéd folytatni a telepítést?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"A(z) %1 kiegészítő új verziója további összetevőket igényel:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "A(z) %1 kiegészítő új verziója a következőt igényli: %2."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Szeretnéd telepíteni őket?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Szeretnéd telepíteni?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4192,11 +4241,6 @@ msgstr "Törlés"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Frissítés..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Verzió: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4248,6 +4292,10 @@ msgstr "Mégse"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "n/a"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4331,6 +4379,11 @@ msgstr "Kilépés"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Főablak megjelenítése"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "Letöltés hozzáadása"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4955,6 +5008,10 @@ msgstr "CSIGA MÓD"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "A YouTube letöltések nem érhetők el"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5766,6 +5823,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "További letöltések engedélyezése a sebesség optimalizálása érdekében"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 perc"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Érvénytelen forgalomkorlátozási beállítások"
 
@@ -5971,6 +6062,10 @@ msgstr "Lemezterület: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Méret: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

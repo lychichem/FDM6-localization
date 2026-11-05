@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Tepsi simgesini kullanarak etkin indirmeyi ve göndermeyi belirt"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Yerleşik etiketleri göster:"
@@ -1039,12 +1044,32 @@ msgid "Add download"
 msgstr "İndirme ekle"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Sorun bildir"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "İptal"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1057,6 +1082,10 @@ msgstr "Tamam"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "İndir"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1124,6 +1153,10 @@ msgstr "Dosya adı geçersiz karakterler içeriyor"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "İptal"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1562,6 +1595,10 @@ msgstr "Tümünü yoksay"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "İptal et"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2234,6 +2271,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "Tamam"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Düşük pil"
@@ -2609,6 +2655,10 @@ msgid "Name"
 msgstr "Ad"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Boyut"
 
@@ -2643,6 +2693,10 @@ msgstr "Tamamlandı"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Ad"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 msgctxt "FilesTree_V2|"
 msgid "Priority"
@@ -3978,17 +4032,25 @@ msgid "Hide developer options"
 msgstr "Geliştirici seçeneklerini gizle"
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Yüklü eklentiler yok."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Eklentiyi dosyadan yükle"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "%1 eklentileri hakkında daha fazla bilgi edinin"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4006,6 +4068,10 @@ msgstr "%1 eklenti dosyası"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Eklentiyi yükleme başarısız"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4027,22 +4093,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Kuruluma devam etmek ister misiniz?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Aşağıdaki gerekli bileşenler eksik:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 gerekir."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Bunları yüklemek ister misiniz?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Bunu yüklemek ister misiniz?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4051,6 +4109,10 @@ msgstr "Bulunan güncellemeler yok"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Eklentiyi güncelleme başarısız"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4076,25 +4138,12 @@ msgstr "Kuruluma devam etmek ister misiniz?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"%1 eklentisinin yeni sürümü ek bileşenler gerektiriyor:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "%1 eklentisinin yeni sürümü %2 gerektiriyor."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Bunları yüklemek ister misiniz?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Bunu yüklemek ister misiniz?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4111,11 +4160,6 @@ msgstr "Kaldır"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Güncelleniyor..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Sürüm: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4167,6 +4211,10 @@ msgstr "İptal"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "yok"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4250,6 +4298,11 @@ msgstr "Çıkış"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Ana pencereyi göster"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "İndirme ekle"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4875,6 +4928,10 @@ msgstr "SALYANGOZ MODU"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "YouTube indirmeleri kullanılamıyor"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5679,6 +5736,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "Hızı iyileştirmek için ek indirmeleri etkinleştir"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 dakika"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Geçersiz trafik sınırları ayarları"
 
@@ -5881,6 +5972,10 @@ msgstr "Disk alanı: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Boyut: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPageHeader|"
 msgid "New file"

@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "තැටි නිරූපකය භාවිතා කරමින් සක්රීය බාගත කිරීම සහ උඩුගත කිරීම පෙන්වන්න"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "පෙරනිමි ටැග් පෙන්වන්න:"
@@ -1058,12 +1063,32 @@ msgid "Add download"
 msgstr "බාගත එකතු කරන්න"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "ගැටළු වාර්ථා කරන්න"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1076,6 +1101,10 @@ msgstr "හරි"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "බාගත කිරීම"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1147,6 +1176,10 @@ msgstr "ගොනු නාමයේ අවලංගු අක්ෂර අඩ�
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1592,6 +1625,10 @@ msgstr "සියල්ල නොසලකා හරින්න"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "නවත්වන්න"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2270,6 +2307,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "හරි"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "බැටරි ධාරිතාවය අඩු වී ඇත"
@@ -2652,6 +2698,10 @@ msgid "Name"
 msgstr "නම"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "ප්‍රමාණය"
 
@@ -2687,6 +2737,10 @@ msgstr "සම්පුර්ණ කර ඇත"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "නම"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4038,17 +4092,25 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "ස්ථාපනය කරන ලද ඇඩෝන නොමැත."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "ගොනුවෙන් ඇඩෝන ස්ථාපනය කරන්න"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "%1 ඇඩෝන ගැන වැඩිදුර දැනගන්න"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4066,6 +4128,10 @@ msgstr "%1 ඇඩෝන ගොනු"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "ඇඩෝන ස්ථාපනය කිරීමට අසමත් විය"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4087,22 +4153,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "ඔබ ස්ථාපනය දිගටම කරගෙන යාමට කැමතිද?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "පහත සඳහන් අවශ්ය සංරචක සොයාගත නොහැක:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 අවශ් යයි."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "ඔබ ඒවා ස්ථාපනය කිරීමට කැමතිද?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "ඔබ එය ස්ථාපනය කිරීමට කැමතිද?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4111,6 +4169,10 @@ msgstr "යාවත්කාලීන කිරීම් සොයාගත න
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "ඇඩෝන යාවත්කාලීන කිරීමට අසමත් විය"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4136,25 +4198,12 @@ msgstr "ඔබ ස්ථාපනය දිගටම කරගෙන යාම�
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"%1 ඇඩෝනයේ නව අනුවාදයට අමතර සංරචක අවශ්ය වේ:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "%1 ඇඩෝනයේ නව අනුවාදය%2 අවශ්ය වේ."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "ඔබ ඒවා ස්ථාපනය කිරීමට කැමතිද?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "ඔබ එය ස්ථාපනය කිරීමට කැමතිද?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4171,11 +4220,6 @@ msgstr "ඉවත් කරන්න"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "යාවත්කාලීන කිරීම..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "අනුවාදය: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4227,6 +4271,10 @@ msgstr "අවලංගු කරන්න"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "n/a"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4310,6 +4358,11 @@ msgstr "පිටවීම"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "ප්රධාන කවුළුව පෙන්වන්න"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "බාගත එකතු කරන්න"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4935,6 +4988,10 @@ msgstr "SNAIL MODE"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "යූ ටියුබ් බාගත කිරීම් ලබා ගත නොහැක"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5745,6 +5802,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "වේගය ප්රශස්ත කිරීමට අතිරේක බාගැනීම් සක්රීය කරන්න"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "මිනිත්තු 5"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "වේග සීමාවන් සැකසුම වැරදියි"
 
@@ -5950,6 +6041,10 @@ msgstr "තැටියේ ඉඩ: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "ප්‍රමාණය: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

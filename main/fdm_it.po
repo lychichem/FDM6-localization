@@ -174,6 +174,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Visualizza icona download/upload attivi nella barra applicazioni"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Visualizza etichette integrate:"
@@ -1044,12 +1049,32 @@ msgid "Add download"
 msgstr "Aggiungi download"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Segnala problema"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Annulla"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1062,6 +1087,10 @@ msgstr "OK"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Download"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1129,6 +1158,10 @@ msgstr "Il nome del file contiene caratteri non validi"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Annulla"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1573,6 +1606,10 @@ msgstr "Ignora tutti"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Termina"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2252,6 +2289,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Batteria scarica"
@@ -2627,6 +2673,10 @@ msgid "Name"
 msgstr "Nome"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Dimensione"
 
@@ -2661,6 +2711,10 @@ msgstr "Completati"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Nome"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 msgctxt "FilesTree_V2|"
 msgid "Priority"
@@ -4008,17 +4062,25 @@ msgid "Hide developer options"
 msgstr "Nascondi opzioni sviluppatore"
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Nessuna estensione installata."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Installa estensione da file"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Maggiori informazioni sulle estensioni di %1"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4036,6 +4098,10 @@ msgstr "%1 estensioni"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Impossibile installare l'estensione"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4057,22 +4123,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Vuoi continuare l'installazione?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Mancano i seguenti componenti necessari:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 richiesto."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Vuoi installarli?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Vuoi installarlo?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4081,6 +4139,10 @@ msgstr "Nessun aggiornamento trovato"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Impossibile aggiornare l'estensione"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4110,24 +4172,12 @@ msgstr "Vuoi continuare l'installazione?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"La nuova versione dell'estensione %1 richiede componenti aggiuntivi: %2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "La nuova versione dell'estensione %1 richiede %2."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Vuoi installarli?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Vuoi installarlo?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4144,11 +4194,6 @@ msgstr "Rimuovi"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Aggiornamento..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Versione: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4200,6 +4245,10 @@ msgstr "Annulla"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "n/d"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4285,6 +4334,11 @@ msgstr "Esci"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Apri Free Download Manager"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "Aggiungi download"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4910,6 +4964,10 @@ msgstr "MODALITÀ LUMACA"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Download di YouTube non disponibili"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5723,6 +5781,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "Abilita download aggiuntivi per ottimizzare la velocità"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 minuti"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Impostazioni limiti traffico non valide"
 
@@ -5925,6 +6017,10 @@ msgstr "Spazio disponibile: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Dimensione: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "TuneAndAddDownloadPageHeader|"
 msgid "New file"

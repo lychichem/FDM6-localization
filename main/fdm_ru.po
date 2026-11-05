@@ -175,6 +175,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Показывать активность загрузки с помощью значка в трее"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr "Показывать кнопку %1"
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Показывать встроенные метки:"
@@ -1059,12 +1064,32 @@ msgid "Add download"
 msgstr "Добавить загрузку"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr "Для скачивания видео требуется наличие дополнения"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr "Установите совместимое с ФДМ дополнение для скачивания этого видео."
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr "Открыть дополнения"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr "Попробуйте скачать снова после установки дополнения."
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Сообщить о проблеме"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Отмена"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr "Скачать позже"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1077,6 +1102,10 @@ msgstr "ОК"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Скачать"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr "Скачать позже"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1147,6 +1176,10 @@ msgstr "Имя файла содержит недопустимые символ
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Отмена"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr "Скачать позже"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1592,6 +1625,10 @@ msgstr "Пропустить все"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Прервать"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr "современный JavaScript рантайм"
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2272,6 +2309,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "ОК"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr "не установлено"
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr "Скачать дополнение с %1"
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Низкий уровень заряда"
@@ -2654,6 +2700,10 @@ msgid "Name"
 msgstr "Имя"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr "Фильтровать по имени..."
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Размер"
 
@@ -2689,6 +2739,10 @@ msgstr "Завершено"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Имя"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr "Фильтровать по имени..."
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4045,17 +4099,25 @@ msgid "Hide developer options"
 msgstr "Скрыть опции разработчика"
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Не найдены установленные дополнения."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr "Скачали .fda файл? Установите дополнение из него."
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Установить дополнение из файла"
+msgid "Install from file"
+msgstr "Установить из файла"
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Узнать больше о дополнениях %1"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr "Нужна помощь в установке?"
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr "Обратиться в поддержку."
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4073,6 +4135,10 @@ msgstr "Файлы дополнений %1"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Не удалось установить дополнение"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr "Отсутствуют требуемые компоненты"
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4094,22 +4160,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Вы хотите продолжить процесс установки?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Нет следующих необходимых компонентов:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 необходим."
+msgid "%1 add-on requires the following software:"
+msgstr "Аддону %1 требуются следующие компоненты:"
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Вы хотите установить их?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Вы хотите установить его?"
+msgid "Install the required software now?"
+msgstr "Установить требуемые компоненты сейчас?"
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4118,6 +4176,10 @@ msgstr "Обновления не найдены"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Не удалось обновить дополнение"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr "Отсутствует требуемый компонент"
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4143,25 +4205,12 @@ msgstr "Вы хотите продолжить процесс установки
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
-msgstr ""
-"Новая версия %1 дополнения требует дополнительные компоненты:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "Новая версия %1 дополнения требует %2."
+msgid "New %1 add-on requires the following software:"
+msgstr "Новый аддон %1 требует следующие компоненты:"
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Вы хотите установить их?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Вы хотите установить его?"
+msgid "Install the required software now?"
+msgstr "Установить требуемые компоненты сейчас?"
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4178,11 +4227,6 @@ msgstr "Удалить"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Обновление…"
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Версия: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4233,6 +4277,10 @@ msgstr "Отмена"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "н/д"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr "язык программирования"
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4316,6 +4364,11 @@ msgstr "Выход"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Открыть главное окно"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "Добавить загрузку"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4939,6 +4992,10 @@ msgstr "РЕЖИМ УЛИТКИ"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Загрузки с YouTube недоступны"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr "Для скачивания видео требуется наличие дополнения"
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5750,6 +5807,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "Разрешить запуск дополнительных закачек для оптимизации скорости"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr "Приостанавливать медленные закачки и запускать следующие в очереди"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr "Скорость не превышает"
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr "в течение"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr "30 секунд"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr "1 минуты"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr "3 минут"
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 минут"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr "10 минут"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Недействительные настройки ограничения трафика"
 
@@ -5954,6 +6045,10 @@ msgstr "Место на диске: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Размер: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr "Скачать позже"
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

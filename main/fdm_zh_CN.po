@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "在托盘图标中显示活动下载和上传速度"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "显示内建标签："
@@ -1052,12 +1057,32 @@ msgid "Add download"
 msgstr "添加下载"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "报告问题"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1070,6 +1095,10 @@ msgstr "确定"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "下载"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1141,6 +1170,10 @@ msgstr "文件名包含非法字符"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1576,6 +1609,10 @@ msgstr "全部忽略"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "中止"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2253,6 +2290,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "确定"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "电池电量低"
@@ -2635,6 +2681,10 @@ msgid "Name"
 msgstr "名称"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "大小"
 
@@ -2670,6 +2720,10 @@ msgstr "已完成"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "名称"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4013,17 +4067,25 @@ msgid "Hide developer options"
 msgstr "隐藏开发者选项"
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "没有已安装的扩展。"
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "从文件安装扩展"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "了解更多关于%1扩展的内容"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4041,6 +4103,10 @@ msgstr "%1 个扩展文件"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "无法安装扩展"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4062,22 +4128,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "您想要继续安装吗？"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "下列必须组件缺失："
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 是必须的。"
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "您想安装它们吗？"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "您想安装它吗？"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4086,6 +4144,10 @@ msgstr "无可用更新"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "更新扩展失败"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4111,25 +4173,12 @@ msgstr "您想要继续安装吗？"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"新版本的 %1 扩展需要多个额外组件：\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "新版本的 %1 扩展需要 %2."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "您想安装它们吗？"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "您想安装它吗？"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4146,11 +4195,6 @@ msgstr "移除"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "正在更新..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "版本：%1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4199,6 +4243,10 @@ msgstr "取消"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "n/a"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4282,6 +4330,11 @@ msgstr "退出"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "显示主窗口"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "添加下载"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4905,6 +4958,10 @@ msgstr "慢速模式"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Youtube 下载不可用"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5713,6 +5770,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "启用额外下载以优化速度"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 分钟"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "流量限制设置错误"
 
@@ -5915,6 +6006,10 @@ msgstr "磁盘空间：%1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "大小：%1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

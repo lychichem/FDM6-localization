@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr ""
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr ""
@@ -1026,12 +1031,32 @@ msgid "Add download"
 msgstr "Lägg ladda ner"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Avbryt"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1044,6 +1069,10 @@ msgstr "OK"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Ladda ner"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1115,6 +1144,10 @@ msgstr ""
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Avbryt"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1546,6 +1579,10 @@ msgstr ""
 
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
+msgstr ""
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
 msgstr ""
 
 #, qt-format
@@ -2217,6 +2254,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr ""
@@ -2592,6 +2638,10 @@ msgid "Name"
 msgstr "Namn"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Storlek"
 
@@ -2627,6 +2677,10 @@ msgstr "Slutfört"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Namn"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -3959,16 +4013,24 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
+msgid "Downloaded the .fda file? Install the add-on from it."
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
+msgid "Install from file"
 msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -3986,6 +4048,10 @@ msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -4008,21 +4074,13 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr ""
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr ""
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
+msgid "%1 add-on requires the following software:"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr ""
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
+msgid "Install the required software now?"
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -4031,6 +4089,10 @@ msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
+msgstr ""
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
 msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
@@ -4057,22 +4119,11 @@ msgstr ""
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
-msgstr ""
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
+msgid "New %1 add-on requires the following software:"
 msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr ""
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
+msgid "Install the required software now?"
 msgstr ""
 
 msgctxt "PluginsViewItem|"
@@ -4089,11 +4140,6 @@ msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
-msgstr ""
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
 msgstr ""
 
 msgctxt "PluginsViewItem|"
@@ -4142,6 +4188,10 @@ msgstr "Avbryt"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
+msgstr ""
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
 msgstr ""
 
 msgctxt ""
@@ -4224,6 +4274,10 @@ msgstr ""
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Visa huvudfönster"
+
+msgctxt "QObject|"
+msgid "Add download"
+msgstr ""
 
 #, qt-format
 msgctxt "QObject|"
@@ -4843,6 +4897,10 @@ msgstr "Snigel-läge"
 
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
 msgstr ""
 
 msgctxt "QObject|"
@@ -5645,6 +5703,39 @@ msgid "Enable additional downloads to optimize speed"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr ""
 
@@ -5848,6 +5939,10 @@ msgstr ""
 #, qt-format
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
+msgstr ""
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
 msgstr ""
 
 #, fuzzy

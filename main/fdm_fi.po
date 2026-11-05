@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Näytä aktiivinen lataus ja lähetys ilmaisinalueen kuvakkeena"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Näytä sisäänrakennetut tunnisteet:"
@@ -1054,12 +1059,32 @@ msgid "Add download"
 msgstr "Lisää lataus"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Ilmoita ongelmasta"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Peru"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1072,6 +1097,10 @@ msgstr "OK"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Lataa"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1142,6 +1171,10 @@ msgstr "Tiedostonimi sisältää kiellettyjä merkkejä"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Peru"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1585,6 +1618,10 @@ msgstr "Ohita kaikki"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Keskeytä"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2264,6 +2301,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Akku lopussa"
@@ -2646,6 +2692,10 @@ msgid "Name"
 msgstr "Nimi"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Koko"
 
@@ -2681,6 +2731,10 @@ msgstr "Valmis"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Nimi"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4026,17 +4080,25 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Lisäosia ei ole asennettu."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Asenna lisäosa tiedostosta"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Lisätietoja %1:n lisäosista"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4054,6 +4116,10 @@ msgstr "%1 lisäosatiedostot"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Lisäosan asennus epäonnistui"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4075,22 +4141,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Haluatko jatkaa asennusta?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Seuraavat vaadittavat komponentit puuttuvat:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 vaaditaan."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Haluatko asentaa ne?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Haluatko asentaa sen?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4099,6 +4157,10 @@ msgstr "Ei päivityksiä"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Lisäosan päivitys epäonnistui"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4124,25 +4186,12 @@ msgstr "Haluatko jatkaa asennusta?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"Lisäosan %1 uusi versio vaatii lisäkomponentteja:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "Lisäosan %1 uusi versio vaatii %2."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Haluatko asentaa ne?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Haluatko asentaa sen?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4159,11 +4208,6 @@ msgstr "Poista"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Päivitetään…"
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Versio: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4214,6 +4258,10 @@ msgstr "Peru"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "n/a"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4297,6 +4345,11 @@ msgstr "Poistu"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Näytä pääikkuna"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "Lisää lataus"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4921,6 +4974,10 @@ msgstr "ETANATILA"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "YouTube-lataus ei ole käytettävissä"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5733,6 +5790,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "Käytä lisälatauksia nopeuden optimoimiseksi"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 minuuttia"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Virheelliset tiedonsiirtorajoitukset"
 
@@ -5937,6 +6028,10 @@ msgstr "Levytila: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Koko: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

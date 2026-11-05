@@ -174,6 +174,11 @@ msgid "Indicate active download and upload using tray icon"
 msgstr ""
 "Prikaži aktivno nalaganje in pošiljanje s pomočjo ikone v sistemski vrstici"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Pokaži vgrajene oznake:"
@@ -1062,12 +1067,32 @@ msgid "Add download"
 msgstr "Dodaj prenos"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Prijavi težavo"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Prekliči"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1080,6 +1105,10 @@ msgstr "V redu"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Prenesi"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1151,6 +1180,10 @@ msgstr "Ime datoteke vsebuje neveljavne znake"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Prekliči"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1597,6 +1630,10 @@ msgstr "Prezri vse"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Prekini"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2278,6 +2315,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "V redu"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Nizka raven baterije"
@@ -2660,6 +2706,10 @@ msgid "Name"
 msgstr "Ime"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Velikost"
 
@@ -2695,6 +2745,10 @@ msgstr "Končano"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Ime"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4049,17 +4103,25 @@ msgid "Hide developer options"
 msgstr "Skrij možnosti za razvijalce"
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Ni nameščenih dodatkov."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Namestite dodatek iz datoteke"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Več informacij o dodatkih %1"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4077,6 +4139,10 @@ msgstr "%1 datotek z dodatki"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Namestitev dodatka ni uspela"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4098,22 +4164,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Želite nadaljevati z namestitvijo?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Manjkajo naslednje obvezne komponente:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "Zahtevan je %1."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Bi jih radi namestili?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Bi ga radi namestili?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4122,6 +4180,10 @@ msgstr "Ni najdenih posodobitev"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Posodobitev dodatka ni uspela"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4147,25 +4209,12 @@ msgstr "Želite nadaljevati z namestitvijo?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"Nova različica dodatka %1 zahteva dodatne komponente:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "Nova različica dodatka %1 zahteva %2."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Bi jih radi namestili?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Bi ga radi namestili?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4182,11 +4231,6 @@ msgstr "Odstrani"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Posodabljanje..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Različica: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4238,6 +4282,10 @@ msgstr "Prekliči"
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
 msgstr "ni na voljo"
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
+msgstr ""
 
 msgctxt ""
 "QGuiApplication|Translate this string to the string 'LTR' in left-to-right "
@@ -4321,6 +4369,11 @@ msgstr "Izhod"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Prikaži glavno okno"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "Dodaj prenos"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4946,6 +4999,10 @@ msgstr "NAČIN POLŽA"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "Prenosi z YouTuba niso na voljo"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5755,6 +5812,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr "Omogoči dodatne prenose za optimizacijo hitrosti"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 minut"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Neveljavne nastavitve omejitev prometa"
 
@@ -5960,6 +6051,10 @@ msgstr "Prostor na disku: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Velikost: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

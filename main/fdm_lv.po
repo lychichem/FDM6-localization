@@ -173,6 +173,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "Iezīmēt aktīvo lejupielādi un augšupielādi izmantojot paplātnes ikonu"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr "Parādīt iebūvētās atzīmes:"
@@ -1048,12 +1053,32 @@ msgid "Add download"
 msgstr "Pievienot lejupielādi"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "Paziņot par problēmu"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "Atcelt"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1066,6 +1091,10 @@ msgstr "OK"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "Lejupielādēt"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1137,6 +1166,10 @@ msgstr "Faila nosaukums satur nederīgas zīmes"
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "Atcelt"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1578,6 +1611,10 @@ msgstr "Ignorēt visu"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "Pārtraukt"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2256,6 +2293,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "OK"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "Zems akumulatora līmenis"
@@ -2632,6 +2678,10 @@ msgid "Name"
 msgstr "Nosaukums"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "Izmērs"
 
@@ -2667,6 +2717,10 @@ msgstr "Pabeigts"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "Nosaukums"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4017,17 +4071,25 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "Nav instalēta neviena pievienojumprogramma."
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "Instalēt pievienojumprogrammu no faila"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
 msgstr "Uzzināt vairāk par %1 pievienojumprogrammām"
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -4045,6 +4107,10 @@ msgstr "%1 pievienojumprogrammu faili"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "Neizdevās instalēt pievienojumprogrammu"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4066,22 +4132,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "Vai tu vēlētos turpināt instalāciju?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "Sekojošās nepieciešamās komponentes trūkst:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 ir nepieciešams."
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "Vai tu vēlies instalēt tos?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "Vai tu vēlies instalēt to?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4090,6 +4148,10 @@ msgstr "Nav atrasts neviens atjauninājums"
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "Neizdevās atjaunināt pievienojumprogrammu"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4115,25 +4177,12 @@ msgstr "Vai tu vēlētos turpināt instalāciju?"
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"Jauna %1 pievienojumprogrammas versija pieprasa papildu komponentes:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "Jauna %1 pievienojumprogrammas versija pieprasa %2."
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "Vai tu vēlies instalēt tos?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "Vai tu vēlies instalēt to?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4150,11 +4199,6 @@ msgstr "Noņemt"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "Atjaunina..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "Versija: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4204,6 +4248,10 @@ msgstr "Atcelt"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
+msgstr ""
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
 msgstr ""
 
 msgctxt ""
@@ -4288,6 +4336,11 @@ msgstr "Iziet"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "Rādīt galveno logu"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "Pievienot lejupielādi"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4913,6 +4966,10 @@ msgstr "GLIEMEŽA REŽĪMS"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "YouTube lejupielādes nav pieejamas"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5729,6 +5786,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 minūtes"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Nederīgi satiksmes limitu iestatījumi"
 
@@ -5934,6 +6025,10 @@ msgstr "Vieta diskā: %1"
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "Izmērs: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"

@@ -174,6 +174,11 @@ msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
 msgstr "ट्रे आइकन का उपयोग करके सक्रिय डाउनलोड और अपलोड इंगित करें"
 
+#, qt-format
+msgctxt "AdvancedSettings|"
+msgid "Show \"%1\" button"
+msgstr ""
+
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
 msgstr ""
@@ -1043,12 +1048,32 @@ msgid "Add download"
 msgstr "डाउनलोड जोड़ें"
 
 msgctxt "BuildDownloadDialog|"
+msgid "Video downloads require an add-on"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Install the compatible add‑on for FDM to download this video."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Open Add-ons"
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
+msgid "Try this download again after installing the add-on."
+msgstr ""
+
+msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
 msgstr "समस्या की सूचना दें"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
 msgstr "रद्द करें"
+
+msgctxt "BuildDownloadDialog|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
@@ -1061,6 +1086,10 @@ msgstr "ठीक है"
 msgctxt "BuildDownloadPage|"
 msgid "Download"
 msgstr "डाउनलोड"
+
+msgctxt "BuildDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
@@ -1132,6 +1161,10 @@ msgstr "फ़ाइल नाम में अमान्य वर्ण ह�
 msgctxt "ButtonsBlock|"
 msgid "Cancel"
 msgstr "रद्द करें"
+
+msgctxt "ButtonsBlock|"
+msgid "Download later"
+msgstr ""
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
@@ -1573,6 +1606,10 @@ msgstr "सभी की अनदेखी करें"
 msgctxt "DeleteDownloadsFailedDialog|"
 msgid "Abort"
 msgstr "बीच में बंद करें"
+
+msgctxt "DenoDependencyManager|"
+msgid "a modern JavaScript runtime"
+msgstr ""
 
 #, qt-format
 msgctxt "DiskSpace|"
@@ -2250,6 +2287,15 @@ msgctxt "EditTagDialog|"
 msgid "OK"
 msgstr "ठीक है"
 
+msgctxt "ElephantAddonNotInstalled|"
+msgid "not installed"
+msgstr ""
+
+#, qt-format
+msgctxt "ElephantAddonNotInstalled|"
+msgid "Download the addon at %1"
+msgstr ""
+
 msgctxt "EnvTools|"
 msgid "Low battery"
 msgstr "लो बैटरी"
@@ -2626,6 +2672,10 @@ msgid "Name"
 msgstr "नाम"
 
 msgctxt "FilesTreeHeader_V2|"
+msgid "Filter by name..."
+msgstr ""
+
+msgctxt "FilesTreeHeader_V2|"
 msgid "Size"
 msgstr "आकार"
 
@@ -2661,6 +2711,10 @@ msgstr "पूरा हुआ"
 msgctxt "FilesTree_V2|"
 msgid "Name"
 msgstr "नाम"
+
+msgctxt "FilesTree_V2|"
+msgid "Filter by name..."
+msgstr ""
 
 #, fuzzy
 msgctxt "FilesTree_V2|"
@@ -4000,16 +4054,24 @@ msgid "Hide developer options"
 msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "There are no installed add-ons."
-msgstr "कोई स्थापित ऐड-ऑन नहीं हैं।"
+msgid "Downloaded the .fda file? Install the add-on from it."
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Install add-on from file"
-msgstr "फ़ाइल से ऐड-ऑन स्थापित करें"
+msgid "Install from file"
+msgstr ""
 
 #, qt-format
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Need help installing?"
+msgstr ""
+
+msgctxt "PluginsPage|"
+msgid "Contact support."
 msgstr ""
 
 msgctxt "PluginsPage|"
@@ -4028,6 +4090,10 @@ msgstr "%1 ऐड-ऑन फ़ाइलें"
 msgctxt "PluginsPage|"
 msgid "Failed to install add-on"
 msgstr "ऐड-ऑन स्थापित करने में विफल"
+
+msgctxt "PluginsPage|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "Warning!"
@@ -4049,22 +4115,14 @@ msgctxt "PluginsPage|"
 msgid "Would you like to continue the installation?"
 msgstr "क्या आप स्थापना जारी रखना चाहेंगे?"
 
-msgctxt "PluginsPage|"
-msgid "The following required components are missing:"
-msgstr "निम्नलिखित आवश्यक घटक गायब हैं:"
-
 #, qt-format
 msgctxt "PluginsPage|"
-msgid "%1 is required."
-msgstr "%1 आवश्यक है।"
+msgid "%1 add-on requires the following software:"
+msgstr ""
 
 msgctxt "PluginsPage|"
-msgid "Would you like to install them?"
-msgstr "क्या आप उन्हें स्थापित करना चाहेंगे?"
-
-msgctxt "PluginsPage|"
-msgid "Would you like to install it?"
-msgstr "क्या आप इसे स्थापित करना चाहेंगे?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsPage|"
 msgid "No updates found"
@@ -4073,6 +4131,10 @@ msgstr ""
 msgctxt "PluginsUpdateUiManager|"
 msgid "Failed to update add-on"
 msgstr "ऐड-ऑन अपडेट करने में विफल"
+
+msgctxt "PluginsUpdateUiManager|"
+msgid "Required software is missing"
+msgstr ""
 
 msgctxt "PluginsUpdateUiManager|"
 msgid "Warning!"
@@ -4098,25 +4160,12 @@ msgstr "क्या आप स्थापना जारी रखना च�
 
 #, qt-format
 msgctxt "PluginsUpdateUiManager|"
-msgid ""
-"New version of %1 add-on requires additional components:\n"
-"%2"
+msgid "New %1 add-on requires the following software:"
 msgstr ""
-"%1 ऐड-ऑन के नए संस्करण को अतिरिक्त घटकों की आवश्यकता है:\n"
-"%2"
-
-#, qt-format
-msgctxt "PluginsUpdateUiManager|"
-msgid "New version of %1 add-on requires %2."
-msgstr "%1 ऐड-ऑन के नए संस्करण के लिए %2 की आवश्यकता है।"
 
 msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install them?"
-msgstr "क्या आप उन्हें स्थापित करना चाहेंगे?"
-
-msgctxt "PluginsUpdateUiManager|"
-msgid "Would you like to install it?"
-msgstr "क्या आप इसे स्थापित करना चाहेंगे?"
+msgid "Install the required software now?"
+msgstr ""
 
 msgctxt "PluginsViewItem|"
 msgid "Allow automatic updates"
@@ -4133,11 +4182,6 @@ msgstr "हटाएँ"
 msgctxt "PluginsViewItem|"
 msgid "Updating..."
 msgstr "अपडेट हो रहा है..."
-
-#, qt-format
-msgctxt "PluginsViewItem|"
-msgid "Version: %1"
-msgstr "संस्करण: %1"
 
 msgctxt "PluginsViewItem|"
 msgid "OK to remove?"
@@ -4188,6 +4232,10 @@ msgstr "रद्द करें"
 
 msgctxt "ProgressBar_V2|"
 msgid "n/a"
+msgstr ""
+
+msgctxt "PythonDependencyManager|"
+msgid "a programming language"
 msgstr ""
 
 msgctxt ""
@@ -4272,6 +4320,11 @@ msgstr "बाहर निकलना"
 msgctxt "QObject|"
 msgid "Show main window"
 msgstr "मुख्य विंडो दिखाएं"
+
+#, fuzzy
+msgctxt "QObject|"
+msgid "Add download"
+msgstr "डाउनलोड जोड़ें"
 
 #, qt-format
 msgctxt "QObject|"
@@ -4897,6 +4950,10 @@ msgstr "घोंघा मोड"
 msgctxt "QObject|"
 msgid "YouTube downloads are not available"
 msgstr "YouTube डाउनलोड उपलब्ध नहीं हैं"
+
+msgctxt "QObject|"
+msgid "Video downloads require an add-on"
+msgstr ""
 
 msgctxt "QObject|"
 msgid "Files were modified"
@@ -5698,6 +5755,40 @@ msgid "Enable additional downloads to optimize speed"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Pause slow downloads and let others go first"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Speed does not exceed"
+msgstr ""
+
+#. "Speed does not exceed N b/s for NN seconds"
+msgctxt "TrafficLimitsSettings|"
+msgid "for"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "30 seconds"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "1 minute"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "3 minutes"
+msgstr ""
+
+#, fuzzy
+msgctxt "TrafficLimitsSettings|"
+msgid "5 minutes"
+msgstr "5 मिनट"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "10 minutes"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "अमान्य ट्रैफ़िक सीमा सेटिंग"
 
@@ -5903,6 +5994,10 @@ msgstr ""
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1"
 msgstr "आकार: %1"
+
+msgctxt "TuneAndAddDownloadPage|"
+msgid "Download later"
+msgstr ""
 
 #, fuzzy
 msgctxt "TuneAndAddDownloadPageHeader|"
